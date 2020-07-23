@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artista</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript" src="js/artista.js"></script>
+</head>
+<body onload="carregarArtista()">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <h3 class="text-center">Gerenciador de Musicas - Artista</h3>
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">Nome Artistico </span>
+                    </div>
+                    <input id="txtNomeArtistico" type="text" class="form-control" placeholder="Digite o seu Nome Artistico" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <br>
+
+               
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping">Nacionalidade</span>
+                    </div>
+                    <input id="txtNacionalidade" type="text" class="form-control" placeholder="Digite sua Nacionalidade" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            
+        </div>
+            <br>
+        </div>
+        <br>
+        <button onclick="cadastrar()" type="button" class="btn btn-primary btn-lg">cadastrar</button>
+        <br> <br>
+
+        <h3> Artistas Cadastrados</h3><br>
+        <h4 id="artistas"></h4>
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
