@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color:fuchsia;
+}
+
+.container{
+    background-color: lightgoldenrodyellow;
+
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
